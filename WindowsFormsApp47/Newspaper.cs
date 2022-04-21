@@ -13,7 +13,6 @@ namespace WindowsFormsApp47
         public void NewNews(string text)
         {
             news = text;
-
             NotifyObservers();
         }
         public void AddObserver(IObserver observer)
